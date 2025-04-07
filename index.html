@@ -1,121 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png"> <!-- Substitua por um caminho acessível -->
-  <title>Igor Silva</title>
-</head>
-
-<body style="font-family: Arial, sans-serif; margin: 20px;">
-
-  <center>
-    <h1 class="name">Igor Silva</h1>
-    <img class="foto" src="C:\Users\higos\Desktop\Senac\WhatsApp Image 2025-04-06 at 23.27.39.jpeg" alt="Igor Edmilson" title="Igor Edmilson" height="400px"><br>
-    <h3 class="stack">(Desenvolvedor Full-Stack)</h3>
-  </center>
-  <hr>
+  <title>Currículo - Igor Silva</title>
   <style>
-    .name {
-      font-size: 36px;
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+
+    h2 {
       margin-bottom: 10px;
-      font-family: Arial, sans-serif;
     }
-  
-    .foto {
-      width: 250px;
-      height: 250px;
-      object-fit: cover;
-      border-radius: 50%;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-      border: 3px solid #ddd;
+
+    .nav {
+      margin-bottom: 15px;
     }
-  
-    .stack {
+
+    .nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0645AD;
       font-weight: normal;
-      color: #555;
-      font-family: Arial, sans-serif;
-      font-size: 18px;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: 2px solid black;
     }
   </style>
-  
-  <h2>Sobre</h2>
-  <p>
-    Graduando em Análise e Desenvolvimento de Sistemas pelo SENAC Pernambuco através do programa Embarque Digital e Licenciando em Matemática pela Universidade Católica de Pernambuco (UNICAP). Possui experiência como estagiário em instituições públicas e privadas e atualmente participa da Residência Onboard no Porto Digital. Apaixonado por tecnologia, educação e inovação, busca oportunidades como desenvolvedor full-stack para aplicar e aprimorar seus conhecimentos.
-  </p>
+</head>
+<body>
 
-  <dl>
-    <dt><strong>Contato:</strong></dt>
-    <dd><strong>Telefone:</strong> <a href="tel:+5581987654321">(81) 98765-4321</a></dd>
-    <dd><strong>Email:</strong> <a href="mailto:igor.exemplo@gmail.com">igoreds1999@gmail.com</a></dd>
-  </dl>
+  <h2><strong>Currículo</strong></h2>
 
-  <center>
-    <a href="http://linkedin.com/in/igoresilva" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Linkedin" title="Linkedin de Igor" height="30px">
-    </a>
-    <a href="https://github.com/igoreds" target="_blank">
-      <img src="https://pngimg.com/d/github_PNG40.png" alt="GitHub" title="GitHub de Igor" height="30px">
-    </a>
-  </center>
-  <hr>
+  <div class="nav">
+    <a href="components\identificacao.html" target="conteudo">Sobre mim</a>
+    <a href="components\formacao.html" target="conteudo">Formação</a>
+    <a href="components\experiencia.html" target="conteudo">Experiência profissional</a>
+    <a href="components\habilidades.html" target="conteudo">Habilidades</a>
+    <a href="components\hobbies.html" target="conteudo">Hobbies</a>
+  </div>
 
-  <h2>Formação Acadêmica</h2>
-  <ol>
-    <li><a href="https://www.unicap.br" target="_blank">Licenciatura em Matemática</a></li>
-    <dd> - Universidade Católica de Pernambuco (2022 - Atual)</dd>
-    <li><a href="https://www.pe.senac.br" target="_blank">Análise e Desenvolvimento de Sistemas</a></li>
-    <dd> - SENAC Pernambuco (2024 - Atual)</dd>
-  </ol>
-  <hr>
-
-  <h2>Experiência Profissional</h2>
-  <center>
-    <table border="1" cellpadding="5" cellspacing="1" width="90%">
-      <tr>
-        <th width="10%">Período</th>
-        <th>Instituição</th>
-        <th>Cargo</th>
-        <th>Descrição</th>
-      </tr>
-      <tr>
-        <td>2023 - Atual</td>
-        <td>Residência Onboard - Porto Digital</td>
-        <td>Residente em Desenvolvimento</td>
-        <td>Participação em trilhas formativas com desafios práticos em parceria com empresas do Porto Digital.</td>
-      </tr>
-      <tr>
-        <td>2022</td>
-        <td>Colégio Modelo</td>
-        <td>Estagiário de Matemática</td>
-        <td>Atuação com práticas pedagógicas no ensino fundamental e médio, promovendo metodologias
-          ativas.</td>
-      </tr>
-      <tr>
-        <td>2022 - 2024</td>
-        <td>PIBID – EREM Sizenando Silveira</td>
-        <td>Estagiário de Matemática</td>
-        <td>
-          Colaboração no desenvolvimento de métodos didáticos inovadores e adaptação de materiais didáticos.<br>
-           e Apoio na organização e na execução de atividades pedagógicas.
-        </td>
-    </table>
-  </center>
-  <hr>
-
-  <h2>Habilidades</h2>
-  <ul>
-    <li>Java (Spring Boot)</li>
-    <li>Angular</li>
-    <li>Javascript</li>
-    <li>C# (.Net)</li>
-    <li>NodeJs</li>
-    <li>SQL</li>
-    <li>HTML e CSS</li>
-    <li>Git e GitHub</li>
-  </ul>
+  <iframe name="conteudo" src="components\identificacao.html" title="Conteúdo do Currículo"></iframe>
 
 </body>
-
 </html>
